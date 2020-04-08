@@ -1,4 +1,4 @@
-#Day 2: Asynchronous Programming
+# Day 2: Asynchronous Programming
 
 ## Topic 1: setTimeout function
 
@@ -14,7 +14,7 @@
   * this is referred to as a callback function
   * Using the callback function, we can store x for later use. 
   * By later calling that (callback) function, we can produce x when we need it and store it in a variable, on whatever delay we decide. 
-* Example from https://eloquentjavascript.net/03_functions.html#h_hOd+yVxaku
+* Example from [Eloquent JavaScript's article](https://eloquentjavascript.net/03_functions.html#h_hOd+yVxaku)
 ```js
 function wrapValue(n) {
   const local = n;
