@@ -1,5 +1,10 @@
 # Day 3: Asynchronous Programming Continued
 
+## Random Notes Section
+
+* Typing /** into the code editor will nicely format your comment block
+* For loops don't need semi-colons
+
 ## But First! Reviewing Recursion
 
 ### Notes from reading [Eloquent JavaScript's article](https://eloquentjavascript.net/03_functions.html#h_hOd+yVxaku):
@@ -125,4 +130,39 @@ console.log(add10(3)); // -> 13
 * This becomes practical (essential, even) for event-based programming, where the result (the code we want to execute in response to an event) is contained in a callback
   * the MDN example uses some HTML, so I will pick this up again in a few days/week or so.
 
-## 
+## Tech Interview #1 Feedback
+
+* Prep for an interview by:
+  * trying some CodeWars stuff
+  * coding on pen and paper
+* Approach the problem with the simplest functional solution first. THEN worry about refactoring and edge cases and all that. 
+* Being able to speak my mind while coding / working through an algorithm is one of my relative strengths.
+* Don't forget to use the linter (if it's there)
+
+## Snek!
+
+* That was fun.
+
+## HTTP
+
+* HTTP is the language used on the back of a TCP connection. They both happen to be text-based.
+  * TCP is the protocol, HTTP is the language
+* for websites, domain name and IP are interchangeable. So host: 'domain'
+* most websites using HTTP are on port 80; HTTPS are on port 443 (except websites trying to hide)
+* HTTP uses methods GET, POST, etc so that the client and server can transact
+
+## Page Downloader Challenge Exercise
+
+## Pair Programming Word Search
+
+* THERE'S AN ARRAY.INCLUDES METHOD!!!!!!!!!!!!!!
+
+## Fetcher
+
+* Read [Callback Hell](http://callbackhell.com/)
+* Stretch and some edge cases incomplete
+* Libraries used: 
+  * npm request (deprecated)
+  * Node's file system
+  * Node's readline
+  * Node's process
